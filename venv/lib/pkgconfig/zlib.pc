@@ -1,0 +1,13 @@
+prefix=/Users/saadbinwasi/Desktop/rag chatbot/pinecone/venv
+exec_prefix=/Users/saadbinwasi/Desktop/rag chatbot/pinecone/venv
+libdir=/Users/saadbinwasi/Desktop/rag chatbot/pinecone/venv/lib
+sharedlibdir=/Users/saadbinwasi/Desktop/rag chatbot/pinecone/venv/lib
+includedir=/Users/saadbinwasi/Desktop/rag chatbot/pinecone/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
